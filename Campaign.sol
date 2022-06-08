@@ -68,7 +68,7 @@ contract Campaign {
         newRequest.value = _value;
         newRequest.receipent = _receipent;
 
-        emit NewRequest(_description,_value,_receipent)
+        emit NewRequest(_description,_value,_receipent);
     }
 
     function approveRequest(uint _index) public {
